@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Resources for Share the Health</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+
+     <h1>Share the Health</h1>
+    <nav>
+      <ul>
+        <li>
+          <a           href="index.html">home</a>
+        </li>
+        <li>
+          <a        href="about.html">about</a>
+        </li>
+        <li>
+          <a href="learnmore.html">learn</a>
+        </li>
+        <li>
+          <a href="connect.html">connect</a>
+        </li>
+      </ul>
+    </nav>
+    <div><center>
+    <h1>Connect</h1>
+    <p>There are already so many organizations working to make healthcare more accessible for all, but it can be challenging to get the word out there.</p>
+
+    <p>Hopefully here you can find someone of these resources that aren't well known about</p>
+
+
+<center>
+     <button id="messageButton"> Click for a postive affirmation </button> 
+</center>
+
+<h3>Want to take Action?</h3>
+
+<p>Fill out the information below to generate a script that you can send to take your local senator, state rep, or any representative to share this message with them and demand they address this issue. All you need to do is add your name, where you're from, and a short message, then generate your script and it's ready to be sent!</p>
+
+      <br/>
+</div>  
+
+<div class="scriptQues">
+  <div class="scriptItem">
+    <label for="yourName">Your name: </label>
+    <input type="text" id="name" >
+  </div>
+
+  <div class="scriptItem">
+    <label for="yourLocation">Your district, county, or city: </label>
+    <input type="text" id="location" >
+  </div>
+
+  <div class="scriptItem">
+    <label for="yourLearning">Share a sentence or two about what you think your local politicians should be doing to improve healthcare access: </label>
+    <br/>
+    <input type="text" id="learning">
+  </div>
+
+  <center><button id="scriptBtn">Generate your script</button></center>
+
+</div>
+
+<br/>
+
+<p id="scriptReturned"></p>
+<br/>
+    </center></div>
+    <script src="connect.js"></script> <!--write all code above this line-->
+ </body>
+</html>
