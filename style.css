@@ -1,0 +1,232 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #b88c9e; 
+}
+
+/* STYLE TEXT */
+
+
+h1 {
+  color: black;
+  padding: 2em;
+}
+
+.healthtext {
+font-size: 40px;
+padding-right: 40%;
+  
+}
+
+#factButton {
+  display: inline-block; 
+  cursor:pointer;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #704c5e;
+  color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 9px #999
+}
+
+#factButton:hover {
+  background-color: #4a313e
+}
+
+#factButton:active {
+  background-color: #4a313e;
+  box-shadow: 0 5px #666;
+  transform: translateY (4px);
+}
+#facts {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 2em
+}
+
+/* STYLE IMAGES */
+
+#mentalmouth {
+max-width:50%;
+  max-height: 50%;
+}
+
+#jannelly {
+  max-width: 40%;
+  max-height:40%;
+}
+
+#maggie {
+  max-width: 45%;
+  max-height: 45%;
+}
+
+/* this section is for the health picture & description */
+.container {
+  display: flex;
+  align-items: flex-center;
+  justify-content: flex-start;
+}
+
+img {
+  max-width: 100%
+}
+
+.health-rights {
+  flex-basis: 50%
+}
+
+.text {
+  font-size: 100px;
+  padding-right: 40%
+}
+/*sectioning ends here*/
+
+/* css below vv is for the three pictures I just moved from html */
+* {
+  box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* STYLE NAV BAR */
+
+/* adds the grey box around nav */
+
+.nav {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color:#704c5e;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5px;
+  width: 500px;
+  
+}
+li a {
+  display: block;
+  color: #704c5e;
+  padding: 8px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #f1c8db;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color:whitesmoke;
+  color: #704c5e;
+}
+ .navbuttons {
+     font-size: 18px;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: whitesmoke;
+  border: 5px solid #b88c9e;
+    
+  }
+
+/* STYLE BUTTONS */
+#messageButton{
+  display: inline-block;
+ padding: 10px 20px;
+  margin: 20px;
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #acd7ec;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 9px #999
+}
+
+#messageButton:hover
+{background-color: #f1c8db;
+  }
+
+#messageButton:active {
+  background-color:#f1c8db;
+  transform: translateY (4px);
+  box-shadow: 0 5px #666;
+}
+
+#scriptBtn{
+  background-color:;#f1c8db;
+  border-radius: 15px;
+  font-family:'Edu VIC WA NT Beginner', cursive;
+  
+}
+
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.scriptQues {
+  background: #88A09E;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  color: black;
+}
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 25%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1em;
+  color: #FFFFFF;
+}
+
+/* ADD MORE! */
+
+
+
+  /* css for table in about page */
+
+th, td {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+  .center {
+  margin-left: auto;
+  margin-right: auto;
+}
